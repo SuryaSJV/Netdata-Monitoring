@@ -54,18 +54,28 @@ cd Netdata-Monitoring
 ```
 docker compose up -d
 ```
+![Image](https://github.com/user-attachments/assets/7a27cefb-fb05-4b09-9da8-be9d52647ccb)
+
 
 3️⃣ Verify Running Containers
 ```
 docker ps
 ```
 
+
 🌐 Accessing the Applications
 Ekart App:
 http://localhost:8070
 
+![Image](https://github.com/user-attachments/assets/baa5c6cd-4caf-48f9-9ff3-953373b064e2)
+
 Netdata Dashboard:
 http://localhost:19999
+
+![Image](https://github.com/user-attachments/assets/0eead099-e64b-46b4-a40e-65930335a3d4)
+
+![Image](https://github.com/user-attachments/assets/ed0b7f34-2d30-4e01-99d4-a67e85722605)
+
 
 
 📊 Monitoring & Logs
@@ -78,6 +88,7 @@ Open http://localhost:19999 in your browser to view:
 
 .Active alerts and health checks
 ```
+![Image](https://github.com/user-attachments/assets/362625d7-695c-48e6-853e-23929cb457be)
 
 📂 Viewing Netdata Logs
 To access logs inside the container:
@@ -86,6 +97,7 @@ docker exec -it netdata bash
 cd /var/log/netdata
 ls
 ```
+![Image](https://github.com/user-attachments/assets/60bb8f47-a441-463a-bc4d-5a16e6cf6a67)
 
 To view a log file:
 ```
